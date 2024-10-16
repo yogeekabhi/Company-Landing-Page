@@ -1,0 +1,285 @@
+body {
+	margin: 0;
+	font-family: "Arial", sans-serif;
+	background-color: #0f1320;
+	color: #fff;
+}
+
+.container {
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 20px;
+	margin-top: 100px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0;
+}
+
+.timeline {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.quarter {
+	text-align: center;
+}
+
+.circle {
+	width: 82px;
+	height: 82px;
+	border-radius: 50%;
+	/* margin: 0 auto 10px; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+h3,
+p {
+	margin: 0;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin-bottom: 0;
+}
+
+ul li {
+	margin-bottom: 0px;
+	font-size: 14px;
+}
+
+.about-company {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+.text-content {
+	width: 644px;
+	margin-right: 20px;
+}
+
+.text-content h2 {
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+
+.text-content p {
+	line-height: 1.6;
+	margin-bottom: 20px;
+}
+
+button {
+	border: none;
+	/* padding: 10px 20px; */
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+	/* border-radius: 5px; */
+}
+
+.image-content {
+	flex: 1;
+}
+
+.image-content img {
+	max-width: 100%;
+	border-radius: 20px;
+}
+
+.q1 {
+	background: rgba(34, 167, 93, 1);
+	box-shadow: 0px 15px 25px 0px rgba(34, 167, 93, 0.25);
+}
+
+.q1::before {
+	content: "";
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: rgba(34, 167, 93, 1);
+	position: absolute;
+	right: -20px;
+	bottom: 23px;
+}
+
+.q2 {
+	background: rgba(34, 120, 212, 1);
+	box-shadow: 0px 15px 25px 0px rgba(34, 120, 212, 0.25);
+}
+
+.q2::before {
+	content: "";
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: rgba(34, 120, 212, 1);
+	position: absolute;
+	right: -20px;
+	bottom: 23px;
+}
+
+.q3 {
+	background: rgba(255, 209, 0, 1);
+	box-shadow: 0px 15px 25px 0px rgba(255, 209, 0, 0.25);
+}
+
+.q3::before {
+	content: "";
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: rgba(255, 209, 0, 1);
+	position: absolute;
+	right: -20px;
+	bottom: 23px;
+}
+
+.q4 {
+	background: rgba(226, 6, 19, 1);
+	box-shadow: 0px 15px 25px 0px rgba(226, 6, 19, 0.25);
+}
+
+.q4::before {
+	content: "";
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: rgba(226, 6, 19, 1);
+	position: absolute;
+	right: -20px;
+	bottom: 23px;
+}
+
+.circle h3 {
+	font-family: Century Gothic;
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 36px;
+	text-align: center;
+	margin: 0;
+	color: rgba(15, 19, 32, 1);
+}
+
+.quater-year {
+	position: absolute;
+	right: -44px;
+	bottom: -3px;
+	margin: 0;
+}
+
+.info-quater {
+	margin-top: 40px;
+	margin-bottom: 0;
+	text-align: left;
+}
+
+.items {
+	/* font-family: Azo Sans; */
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 34px;
+	text-align: left;
+}
+
+.q-l-1 .items {
+	color: rgba(34, 167, 93, 1);
+	margin-right: 20px;
+}
+.q-l-2 .items {
+	color: rgba(34, 120, 212, 1);
+	margin-right: 20px;
+}
+
+.q-l-3 .items {
+	color: rgba(255, 209, 0, 1);
+	margin-right: 20px;
+}
+
+.q-l-4 .items {
+	color: rgba(226, 6, 19, 1);
+	margin-right: 20px;
+}
+
+.info-quater li {
+	line-height: 13px;
+}
+
+.top-text-content {
+	color: rgba(255, 255, 255, 1);
+}
+
+.top-text-content b {
+	display: block;
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+
+.top-text-content span {
+	opacity: 0.6;
+}
+
+.read-btn {
+	border: 2px solid #22a75d;
+	width: 147px;
+	height: 48px;
+	border-radius: 52px;
+	background: #0f1320;
+	transition: all 0.5s ease-in-out;
+}
+
+.read-btn:hover {
+	background: #22a75d;
+	transition: all 0.5s ease-in-out;
+}
+
+.footer {
+	height: 219px;
+	background: #fff;
+	margin-top: 200px;
+}
+.footer div {
+	text-align: right;
+}
+
+.headers {
+	height: 219px;
+	background: #fff;
+	/* margin-top: 200px; */
+}
+
+.headers div {
+	text-align: left;
+}
+
+@media screen and (min-width: 240px) and (max-width: 440px) {
+	.timeline {
+		flex-direction: column;
+	}
+
+	.timeline .quarter {
+		margin-bottom: 50px;
+	}
+
+	.about-company {
+		flex-direction: column;
+	}
+	.image-content {
+		margin-top: 80px;
+	}
+	.image-content img {
+		width: 100%;
+		height: 428px;
+	}
+
+	.text-content {
+		width: 100%;
+	}
+}
